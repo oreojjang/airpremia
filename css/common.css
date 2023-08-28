@@ -1,0 +1,7 @@
+/* Common Style code */
+.container{
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 20px;
+  margin: auto;
+}

@@ -1,0 +1,52 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamicsubset.css');
+
+
+/* Reset Style code */
+:root{
+  /* colors */
+
+  --primary-strong: #f45300;
+
+  --text-strong: #000;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "pretendard", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-narmal);
+}
+
+
+ol, ul{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+em, strong, i, b{
+  font-style: normal;
+  font-weight: normal;
+}
+
+img{
+  display: block;
+}
+
+input, textarea, button, select
+input, ::placeholder, textarea::placeholder{
+  border: none;
+  color: inherit;
+  font-family: "pretendard", sans-serif;
+  background: var(--bg-primary);
+  outline: 0;
+}
